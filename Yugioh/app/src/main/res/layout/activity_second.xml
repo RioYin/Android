@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/guanwangbg"
+    >
+
+    <Button
+        android:id="@+id/button_start_duel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/transparbutton"/>
+
+    <Button
+        android:id="@+id/button_ourocg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="53dp"
+        android:background="@drawable/transparbutton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_rentiantang"
+        android:layout_alignBottom="@+id/button_ourocg"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/transparbutton"/>
+
+    <Button
+        android:id="@+id/button_cnocg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_ourocg"
+        android:layout_toRightOf="@+id/button_ourocg"
+        android:layout_toEndOf="@+id/button_ourocg"
+        android:background="@drawable/transparbutton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_mycard"
+        android:layout_alignTop="@+id/button_rentiantang"
+        android:layout_toLeftOf="@+id/button_rentiantang"
+        android:layout_toStartOf="@+id/button_rentiantang"
+        android:background="@drawable/transparbutton"/>
+
+    <Button
+        android:id="@+id/button_forum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/transparbutton"
+        android:layout_above="@+id/button_rentiantang"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/button_start_duel" />
+
+    <Button
+        android:id="@+id/button_yu_gi_oh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/transparbutton"
+        android:layout_alignBottom="@+id/button_video"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_start_duel" />
+
+
+    <Button
+        android:id="@+id/button_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/transparbutton"
+        android:layout_above="@+id/button_cnocg"
+        android:layout_toRightOf="@+id/button_yu_gi_oh"
+        android:layout_alignRight="@+id/button_mycard"
+        android:layout_alignEnd="@+id/button_mycard"
+        android:layout_below="@+id/button_start_duel" />
+
+
+</RelativeLayout>

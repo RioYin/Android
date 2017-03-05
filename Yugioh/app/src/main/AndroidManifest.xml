@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yugioh" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SeriesActivity" >
+        </activity>
+        <activity android:name="com.character.CharacterDMActivity">
+        </activity>
+        <activity android:name="com.character.CharacterGXActivity">
+        </activity>
+        <activity android:name="com.character.CharacterFIVEDSActivity">
+        </activity>
+        <activity android:name="com.character.CharacterZEXALActivity">
+        </activity>
+        <activity android:name="com.character.CharacterARCVActivity">
+        </activity>
+        <activity android:name="com.character.CharacterCardActivity">
+        </activity>
+        <activity android:name=".CnocgActivity">
+        </activity>
+        <activity android:name=".ForumActivity">
+        </activity>
+        <activity android:name=".MycardActivity">
+        </activity>
+        <activity android:name=".RentiantangActivity">
+        </activity>
+        <activity android:name=".OurocgActivity">
+        </activity>
+        <activity android:name=".SecondActivity">
+        </activity>
+        <activity android:name=".StartGameActivity">
+        </activity>
+        <activity android:name=".YugiohActivity">
+        </activity>
+        <activity android:name=".VideoActivity">
+        </activity>
+    </application>
+
+</manifest>
